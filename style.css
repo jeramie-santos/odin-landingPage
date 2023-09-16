@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;800&display=swap');
 
 body,button{
     margin: 0;
@@ -71,5 +71,59 @@ header .header-logo-link{
     align-items: center;
     padding: 100px;
 }
+
+main{
+    text-align: center;
+    padding: 50px 0 100px;
+}
+
+main h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937
+}
+
+.container-main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px
+}
+
+.card{
+    width: 11%;
+    color: rgba(0, 0, 0, .8);
+}
+
+.card .box{
+    border: 3px solid #3882F6;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quotation{
+    width: 57%;
+    margin: 0 auto;
+}
+
+span{
+    text-align: center;
+}
+
+
 
 
