@@ -55,13 +55,17 @@ header .header-logo-link{
     margin: 0;
 }
 
-.hero-left .btn-signup{
+.btn-signup{
     background-color: #3882F6;
     border: none;
     padding: 8px 20px;
     color: #F9FAF8;
     font-weight: 700;
     border-radius: 6px;
+}
+
+.btn-signup.below{
+    border: 1px solid #F9FaF8;
 }
 
 .hero-right{
@@ -120,8 +124,35 @@ main h2{
     margin: 0 auto;
 }
 
-span{
+.quotation .author {
+    text-align: right;
+    color: #1F2937;
+    font-weight: 800;
+    /* float: right; */
+    
+}
+
+.sign-up{
+    color: #F9FaF8;
+    padding: 75px 0px;
+}
+
+.sign-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 53%;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 25px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
     text-align: center;
+    padding: 15px;
 }
 
 
