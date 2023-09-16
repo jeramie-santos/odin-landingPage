@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;800&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body,button{
     margin: 0;
     padding: 0;
@@ -11,9 +16,10 @@ header{
 }
 
 nav{
+    padding: 15px 200px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header .header-logo-link{
@@ -38,9 +44,9 @@ header .header-logo-link{
 }
 
 .hero-section{
-    padding: 100px 0px;
+    padding: 100px 200px;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
@@ -49,19 +55,29 @@ header .header-logo-link{
 }
 
 .hero-left .main-text{
+
     font-size:  48px;
     font-weight: extra-bold;
     color:  #F9FAF8;
     margin: 0;
 }
 
+.hero-left p{
+    margin-top: 5px;
+}
+
 .btn-signup{
+    margin-top: 10px;
     background-color: #3882F6;
     border: none;
-    padding: 8px 20px;
+    padding: 8px 27px;
     color: #F9FAF8;
     font-weight: 700;
     border-radius: 6px;
+}
+
+.btn-signup:hover{
+    cursor: pointer;
 }
 
 .btn-signup.below{
@@ -88,11 +104,12 @@ main h2{
 }
 
 .container-main{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 50px
-}
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px
+}   
 
 .card{
     width: 11%;
@@ -104,15 +121,15 @@ main h2{
     width: 130px;
     height: 130px;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 0 auto 5px;
 }
 
-.quote{
+.quote-container{
     background-color: #E5E7EB;
     padding: 100px;
 }
 
-.quote p{
+.quote-container .quote{
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
@@ -128,8 +145,8 @@ main h2{
     text-align: right;
     color: #1F2937;
     font-weight: 800;
-    /* float: right; */
-    
+    font-size: 25px;
+    margin-top: 20px;
 }
 
 .sign-up{
@@ -148,11 +165,15 @@ main h2{
     padding: 25px;
 }
 
+.sign-container .sign-p{
+    margin-top: 5px;
+}
+
 footer{
     background-color: #1F2937;
     color: #F9FAF8;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
 }
 
 
